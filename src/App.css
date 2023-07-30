@@ -1,0 +1,120 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  padding-top: 50px;
+  color:  #F8C8DC;
+  width: 100%;
+}
+
+.app-roundedButton {
+  background-color: #F8C8DC;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.app-roundedButton:hover {
+  background-color: white;
+  color: #F8C8DC;
+  border: 2px solid #F8C8DC;
+}
+
+
+
+.app-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.app-container {
+  margin-top: 50px;
+}
+
+.room {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.room label {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #F8C8DC;
+}
+
+.room input {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #F8C8DC;
+  border-radius: 8px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  color:  #F8C8DC;
+}
+
+.room input:focus {
+  outline: none;
+  
+}
+.room button {
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  background-color: #F8C8DC;
+  color: white;
+  cursor: pointer;
+}
+.room button:hover {
+  background-color: white;
+  color: #F8C8DC;
+  border: 2px solid #F8C8DC;
+}
+
+.sign-out {
+  margin: 5px;
+}
+
+.sign-out button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  padding-left: 5px;
+  font-size: 15px;
+  text-align: center;
+  margin: 5px;
+  background-color: #F8C8DC;
+  color: white;
+  cursor: pointer;
+}
